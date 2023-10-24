@@ -9,9 +9,11 @@ modalOpenBtn.innerHTML = 'Open modal'
 modalOpenBtn.style.padding = '15px 10px'
 modalOpenBtn.style.margin = '10px'
 modalOpenBtn.style.display = 'block'
+modalOpenBtn.style.cursor = 'pointer'
 
 //Close Modal Button
 modalCloseBtn.innerHTML = 'X'
+modalCloseBtn.style.cursor = 'pointer'
 
 document.body.append(modalOverlay)
 modalOverlay.classList.add('overlay')
